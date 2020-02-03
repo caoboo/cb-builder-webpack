@@ -1,0 +1,53 @@
+{
+  "name": "cb-builder-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint ./lib --fix",
+    "test": "istanbul cover ./node_modules/.bin/_mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "autoprefixer": "^9.7.4",
+    "clean-webpack-plugin": "^3.0.0",
+    "cssnano": "^4.1.10",
+    "glob": "^7.1.6",
+    "html-webpack-externals-plugin": "^3.8.0",
+    "html-webpack-plugin": "^3.2.0",
+    "lib-flexible": "^0.3.2",
+    "mini-css-extract-plugin": "^0.9.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "raw-loader": "^4.0.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-merge": "^4.2.2"
+  },
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.2",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.0",
+    "file-loader": "^5.0.2",
+    "fs": "^0.0.1-security",
+    "glob-all": "^3.1.0",
+    "ignore-loader": "^0.1.2",
+    "istanbul": "^0.4.5",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "mocha": "^7.0.1",
+    "path": "^0.12.7",
+    "postcss-loader": "^3.0.0",
+    "px2rem-loader": "^0.1.9",
+    "rimraf": "^3.0.1"
+  }
+}
